@@ -56,7 +56,7 @@
 #name {
     font-size: 2.5rem;
     font-weight: bold;
-    color: rgb(37, 5, 66);
+    color: black;
 }
 
 #container-about-me p {
@@ -73,12 +73,18 @@
     margin-right: 25px;
     font-size: 1.1rem;
     opacity: 0.8;
-    color: rgb(37, 5, 66);
+    color: black;
     font-weight: bold;
 }
 
 #container-info ul li i {
     margin-right: 2px;
+}
+
+#download-cv {
+    opacity: 0.8;
+    color: red;
+    font-weight: bold;
 }
 
 #section-render {
