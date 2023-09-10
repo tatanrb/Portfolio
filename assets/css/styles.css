@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sections {
+    max-width: 850px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.transparency-block {
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.95;
+    position: fixed;
+}
+
+#main-container {
+    padding-top: 70px;
+}
+
+#container-cover-img {
+    height: 250px;
+}
+
+#container-cover-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#container-personal-info {
+    margin-top: -85px;
+    padding: 0px 100px;
+}
+
+#container-profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgb(37, 5, 66);
+    margin: 5px 0;
+}
+
+#container-profile-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(37, 5, 66);
+}
+
+#container-about-me p {
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+#container-info ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+#container-info ul li {
+    margin-right: 25px;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    color: rgb(37, 5, 66);
+    font-weight: bold;
+}
+
+#container-info ul li i {
+    margin-right: 2px;
+}
+
+#section-render {
+    padding: 0px 100px;
+    margin-top: 20px;
+}
+
+#section-render ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#section-render ul button {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(37, 5, 66);
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#section-render ul button:hover {
+    cursor: pointer;
+    background-color: rgb(37, 5, 66);
+    color: white;
+}
+
+/* #render {
+    height: 1000px;
+} */
+
+footer {
+    height: 150px;
+}
+
+@media (max-width: 600px){
+    #container-info ul li {
+        margin-right: 10px;
+    }
+    #section-render ul {
+        padding: 0;
+        justify-content: space-around;
+    }
+    #section-render ul li {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(37, 5, 66);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    #section-render ul li button{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(37, 5, 66);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    #container-personal-info {
+        padding: 0px 20px;
+    }
+    #section-render {
+        padding: 0px 20px;
+    }
+    #name {
+        font-size: 2rem;
+    }
+}

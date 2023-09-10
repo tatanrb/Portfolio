@@ -1,0 +1,63 @@
+#render {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container-project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: hidden;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 20px;
+    min-width: 250px;
+    width: 45%;
+    height: fit-content;
+    margin: 10px 0;
+    box-shadow: -7px 13px 17px -4px rgba(0,0,0,0.61);
+-webkit-box-shadow: -7px 13px 17px -4px rgba(0,0,0,0.61);
+-moz-box-shadow: -7px 13px 17px -4px rgba(0,0,0,0.61);
+}
+.container-project * {
+    text-align: center;
+    margin: 6px 0;
+}
+.container-project h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(80, 42, 116);
+}
+.container-project h5 {
+    font-size: 1.1rem;
+    color: rgb(80, 42, 116);
+}
+.container-images img {
+    width: 100%;
+    border-radius: 20px;
+}
+.container-tech-images {
+    display: flex;
+    justify-content: space-around;
+}
+.container-tech-images img {
+    width: 40px;
+}
+.container-project a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(80, 42, 116);
+    padding: 10px 30px;
+    background-color: rgb(37, 5, 66);
+    width: min-content;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 760px){
+    .container-project {
+        width: 400px;
+    }
+}
